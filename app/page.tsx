@@ -138,7 +138,250 @@ function page() {
           />
         </div>
       </div>
-      
+      {/*main-links*/}
+      <div className=" mt-20" dir="rtl">
+        <p className="text-3xl flex justify-center">
+          یک اپلیکیشن، برای تمام نیازها{" "}
+        </p>
+        <ul className="flex">
+          <li className="ml-10">
+            <a href="" className="pr-17.5 text-xl">
+              <img
+                src="fork-and-spoon (1).png"
+                alt="fork-and-spoon (1)"
+                className="mb-3"
+              />
+              سرویس غذا
+            </a>
+          </li>
+          <li className="ml-10 ">
+            <a href="" className="pr-17.5 text-xl">
+              <img
+                src="fork-and-spoon (1).png"
+                alt="fork-and-spoon (1)"
+                className="mb-3"
+              />
+              سرویس غذا
+            </a>
+          </li>
+          <li className="ml-10">
+            <span href="#" className=" text-lg ">
+              <img
+                src="icons8-stars-64.png"
+                alt="icons8-stars-64"
+                className="mb-3"
+              />
+              پیشنهادی
+            </span>
+            <ul className="grid grid-cols-12 mt-15 mb-15">
+              <li className="col-span-4 flex  justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex  justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex  justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+              <li className="col-span-4 flex justify-around m-5">
+                <a href="#" className="text-2xl">
+                  تاکسی اینترنتی
+                  <p className="text-lg">درخواست آنلاین خودرو</p>
+                </a>
+                <img src="sedan (2).png" alt="sedan (2)" className="" />
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      {/*sabte-nam*/}
+      <>
+        <div className="grid grid-cols-12" dir="rtl">
+          <img
+            src="snap1.jpg"
+            alt="snap1"
+            className="col-start-3 col-span-8 mb-5"
+          />
+          <p className="col-start-4 col-span-6 text-3xl mr-20 mb-3">
+            در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.
+          </p>
+          <p className="col-start-4 col-span-6 text-xl mb-5 mr-20">
+            بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را
+            اینترنتی انجام دهید.
+          </p>
+        </div>
+        <button className="m-5">
+          <a
+            href=""
+            className="text-2xl text-amber-50 bg-green-600 rounded p-2 "
+          >
+            ثبت نام رانندگان
+          </a>
+        </button>
+        <video
+          src="https://web-cdn.snapp.ir/snappir-marketing/images/homepage/jazbranandeh1.mp4 "
+          className="h-150 w-320 m-auto mb-10"
+          controls
+          preload="none"
+        ></video>
+        <div className="grid grid-cols-12" dir="rtl">
+          <div className="col-start-2 col-end-6">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+          <div className="col-start-7 col-end-11">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+          <div className="col-start-2 col-end-6">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+          <div className="col-start-7 col-end-11">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+          <div className="col-start-2 col-end-6">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+          <div className="col-start-7 col-end-11">
+            <img
+              className="m-auto"
+              src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
+              alt="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income"
+            />
+            <p className="text-2xl">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+            <p className="text-xl">
+              با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه
+              در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را
+              افزایش دهید.
+            </p>
+          </div>
+        </div>
+      </>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
