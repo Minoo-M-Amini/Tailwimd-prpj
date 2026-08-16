@@ -108,7 +108,7 @@ function page() {
             را با اسنپ انجام دهید.
           </p>
           <div className="flex">
-            <div className="bg-green-600 rounded p-5 m-3">
+            <div className="bg-green-600 rounded hover:bg-green-500 p-5 m-3">
               <a href="#" className="col-span-4 text-amber-50 flex">
                 <img
                   src="icons8-internet-30.png"
@@ -118,7 +118,7 @@ function page() {
                 ورود به وب اپلیکیشن
               </a>
             </div>
-            <div className="border-2 border-solid border-green-600 rounded p-5 m-3">
+            <div className="border-2 border-solid border-green-600 hover:bg-green-200 rounded p-5 m-3">
               <a href="#" className="col-span-2 flex">
                 <img
                   src="icons8-arrow-down-30 (1).png"
@@ -243,7 +243,7 @@ function page() {
       </div>
       {/*sabte-nam*/}
       <>
-        <div className="grid grid-cols-12" dir="rtl">
+        <div className="grid grid-cols-12 " dir="rtl">
           <img
             src="snap1.jpg"
             alt="snap1"
@@ -260,7 +260,7 @@ function page() {
         <button className="m-5">
           <a
             href=""
-            className="text-2xl text-amber-50 bg-green-600 rounded p-2 "
+            className="text-2xl text-amber-50 bg-green-600 hover:bg-green-500 rounded p-2 "
           >
             ثبت نام رانندگان
           </a>
@@ -337,7 +337,7 @@ function page() {
               افزایش دهید.
             </p>
           </div>
-          <div className="col-start-7 col-end-11">
+          <div className="col-start-7 col-end-11 mb-30">
             <img
               className="m-auto"
               src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png"
@@ -354,29 +354,96 @@ function page() {
       </>
 
       {/*saling*/}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       {/*weblog*/}
-
+      <>
+        <div className="container m-auto" dir="rtl">
+          <div className="flex justify-between">
+            <p className="text-2xl">تازه‌ترین‌های وبلاگ اسنپ</p>
+            <button className="hover:bg-green-100 rounded p-2.5">
+              <a href="" className="flex text-xl text-green-600">
+                مطالب بیشتر در وبلاگ اسنپ
+                <img
+                  src="icons8-left-arrow-30.png"
+                  alt="icons8-left-arrow-30"
+                  className="h-3 w-3 mr-1.5 mt-2"
+                />
+              </a>
+            </button>
+          </div>
+          <div className="flex justify-between">
+            <a href="" className=" rounded m-5 w-full">
+              <img
+                src="https://snapp.ir/blog/wp-content/uploads/2025/02/Blog-header-1600x400-1.jpg"
+                alt="https://snapp.ir/blog/wp-content/uploads/2025/02/Blog-header-1600x400-1"
+                className="rounded h-70"
+              />
+              <br />
+              <p className="text-2xl">
+                سرویس «سفر اشتراکی» اسنپ،‌ به‌صرفه‌تر و پایدارتر
+              </p>
+              <br />
+              <p className="text-xl">
+                سرویس سفر اشتراکی راهکاری مناسب برای کاهش هزینه‌ها، به‌ویژه در
+                ساعات اوج ترافیک است.
+              </p>
+            </a>
+            <a href="" className="rounded m-5 w-full">
+              <img
+                src="https://snapp.ir/blog/wp-content/uploads/2024/06/Layer-17.jpg"
+                alt="https://snapp.ir/blog/wp-content/uploads/2024/06/Layer-17"
+                className="rounded h-70"
+              />
+              <br />
+              <p className="text-2xl">
+                افزایش امنیت کاربران راننده اسنپ با سرویس «امنیت سفر»
+              </p>
+              <br />
+              <p className="text-xl">
+                ساسنپ با معرفی سرویس «امنیت سفر» به کاربران مسافر این امکان را
+                داده تا در صورت بروز هرگونه مشکل یا احساس ناامنی، به طور مستقیم
+                با تیم امنیت سفر تماس بگیرند،... ساعات اوج ترافیک است.
+              </p>
+            </a>
+            <a href="" className=" rounded m-5 w-full">
+              <img
+                src="https://snapp.ir/blog/wp-content/uploads/2026/01/PR_Cab_Blog-Cover_1007-scaled.jpg"
+                alt="https://snapp.ir/blog/wp-content/uploads/2026/01/PR_Cab_Blog-Cover_1007-scaled"
+                className="rounded h-70"
+              />
+              <br />
+              <p className="text-2xl">۱۶ باور اشتباه درباره سفرهای اسنپی</p>
+              <br />
+              <p className="text-xl">
+                سشاید هنگام استفاده از اسنپ سوال‌هایی برای‌تان پیش آمده باشد که
+                پاسخش را نمی‌دانید؛... ساعات اوج ترافیک است.
+              </p>
+            </a>
+          </div>
+          <div></div>
+        </div>
+      </>
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       {/*footer*/}
       <div className="container m-auto" dir="rtl">
         <div dir="rtl" className="flex justify-center text-xl mb-10">
@@ -457,7 +524,6 @@ function page() {
             <img
               src="https://ecunion.ir/bundles/pouyasoft/home/img/namad.png"
               alt="https://ecunion.ir/bundles/pouyasoft/home/img/namad"
-
             />
           </a>
         </div>
