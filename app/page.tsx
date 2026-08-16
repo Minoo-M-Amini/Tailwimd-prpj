@@ -352,6 +352,10 @@ function page() {
           </div>
         </div>
       </>
+
+      {/*saling*/}
+      {/*weblog*/}
+
       <br />
       <br />
       <br />
@@ -372,16 +376,92 @@ function page() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
+      {/*footer*/}
+      <div className="container m-auto" dir="rtl">
+        <div dir="rtl" className="flex justify-center text-xl mb-10">
+          <a href="" className="m-auto">
+            {" "}
+            فرصت‌های شغلی
+          </a>
+          <a href="" className="m-auto">
+            بلاگ
+          </a>
+          <a href="" className="m-auto">
+            شرایط و قوانین
+          </a>
+          <a href="" className="m-auto">
+            پنل سازمانی
+          </a>
+          <a href="" className="m-auto">
+            سوالات متداول
+          </a>
+          <a href="" className="m-auto">
+            باشگاه رانندگان
+          </a>
+          <a href="" className="m-auto">
+            ثبت نام راننده اسنپ
+          </a>
+          <a href="" className="m-auto">
+            کد تخفیف اسنپ
+          </a>
+          <a href="" className="m-auto">
+            درباره ما
+          </a>
+          <a href="" className="m-auto">
+            تماس با ما
+          </a>
+        </div>
+        <div className="flex justify-center mb-10">
+          <a href="" className="p-1.5">
+            <img
+              src="https://web-cdn.snapp.ir/snapp-website/icons/social/Twitter.svg"
+              alt="https://web-cdn.snapp.ir/snapp-website/icons/social/Twitter"
+              className="w-8 h-8"
+            />
+          </a>
+          <a href="" className="p-1.5">
+            <img
+              src="https://web-cdn.snapp.ir/snapp-website/icons/social/Telegram.svg"
+              alt="https://web-cdn.snapp.ir/snapp-website/icons/social/Telegram"
+              className="w-8 h-8"
+            />
+          </a>
+          <a href="" className="p-1.5">
+            <img
+              src="	https://web-cdn.snapp.ir/snapp-website/icons/social/Linkedin.svg"
+              alt="	https://web-cdn.snapp.ir/snapp-website/icons/social/Linkedin"
+              className="w-8 h-8"
+            />
+          </a>
+          <a href="" className="p-1.5">
+            <img
+              src="https://web-cdn.snapp.ir/snapp-website/icons/social/Instagram.svg"
+              alt="https://web-cdn.snapp.ir/snapp-website/icons/social/Instagram"
+              className="w-8 h-8"
+            />
+          </a>
+          <a href="" className="p-1.5">
+            <img
+              src="https://web-cdn.snapp.ir/snapp-website/icons/social/Youtube.svg"
+              alt="https://web-cdn.snapp.ir/snapp-website/icons/social/Youtube"
+              className="w-8 h-8"
+            />
+          </a>
+        </div>
+        <div className="flex justify-center">
+          <a href="">
+            <img src="enmad.jpg" alt="enmad" />
+          </a>
+          <a href="">
+            <img
+              src="https://ecunion.ir/bundles/pouyasoft/home/img/namad.png"
+              alt="https://ecunion.ir/bundles/pouyasoft/home/img/namad"
+
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 }
