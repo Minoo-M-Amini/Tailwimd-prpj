@@ -143,27 +143,8 @@ function page() {
         <p className="text-3xl flex justify-center">
           یک اپلیکیشن، برای تمام نیازها{" "}
         </p>
-        <ul className="flex">
-          <li className="ml-10">
-            <a href="" className="pr-17.5 text-xl">
-              <img
-                src="fork-and-spoon (1).png"
-                alt="fork-and-spoon (1)"
-                className="mb-3"
-              />
-              سرویس غذا
-            </a>
-          </li>
-          <li className="ml-10 ">
-            <a href="" className="pr-17.5 text-xl">
-              <img
-                src="fork-and-spoon (1).png"
-                alt="fork-and-spoon (1)"
-                className="mb-3"
-              />
-              سرویس غذا
-            </a>
-          </li>
+        <ul className="">
+          
           <li className="ml-10">
             <span href="#" className=" text-lg ">
               <img
